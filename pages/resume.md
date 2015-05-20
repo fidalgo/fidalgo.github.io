@@ -16,7 +16,7 @@ permalink: /resume/
 
 
 #### Context
-Software enginner working both on the web component and backend big data processing
+Software engineer working both on the web component and backend big data processing
 
 
 #### Projects
@@ -24,7 +24,7 @@ Software enginner working both on the web component and backend big data process
 * Web application to show the reports and search for companies
 
 
-#### Tecnhnologies
+#### Technologies
 Ruby, Ruby on Rails, Hadoop, Amazon EMR, Stanford CoreNLP, Elasticsearch
 
 ---
@@ -42,7 +42,7 @@ Requirements analysis, specification, development, tests and deployment of an SI
 * Test planning and execution, deployments, upgrades and contingency plans.
 * Load and performance tests automation.
 
-#### Tecnhnologies
+#### Technologies
 J2EE, C++, Python, Ruby, Linux, PostgreSQL, Bash, Mantis, Oracle, Spring Framework, Netty, Hibernate,Integrated Performance Primitives (Intel IPP), Twitter Bootstrap, jQuery, AngularJS
 
 ---
@@ -56,7 +56,7 @@ Requirements analysis, specification, development, tests and deployment of serve
 * Specification, implementation and maintenance of several modules of message processing (SMS and MMS) providing services of mass sending, CRM integration, value-added services and integration with external systems (Bank operations, Email, Web Services...) for telecommunications operators.
 * Specification, planning e execution of test plans. Deployment, upgrades and contingency plans for product delivery.
 
-#### Tecnhnologies
+#### Technologies
 Java, Linux, PostgreSQL, Bash, HP Quality Center, Redmine, Jira, Confluence
 
 ---
@@ -71,7 +71,7 @@ Project management with focus on web and multimedia content projects, in part-ti
 * Leading the recruiting process and contract external resources.
 * Specification and development of a communication module, using an RS232 serial port, with a custom made GSM modem switch.
 
-#### Tecnhnologies
+#### Technologies
 Ruby, Rails, Redmine, Linux
 
 ---
@@ -88,7 +88,7 @@ management and user self-care for a new generation communications service, provi
 * Analysis, requirements gathering, specification and development of a value-added SMS and Wap Push service, consisting in a core processor and a management web application.
 * Analysis and requirements gathering for an ENUM (E.164 NUmber Mapping) server, with state of the art investigation and testing the available solutions and API’s.
 
-#### Tecnhnologies
+#### Technologies
 Linux, Java, Ruby on Rails, Bash, PostgreSQL, Subversion, Git,CVS, Redmin
 
 ---

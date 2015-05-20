@@ -38,6 +38,19 @@
       </div>
       {% endif %}
 
+      {% if site.linkedin_profile_url %}
+        <div class="footer-col  footer-col-4">
+          <ul class="social-media-list">
+          <li>
+            <i class="fa fa-linkedin"></i>
+            <a href="{{ site.linkedin_profile_url }}">
+              <span class="username">Linkedin</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      {% endif %}
+
       {% if site.twitter_username %}
         <div class="footer-col  footer-col-4">
           <ul class="social-media-list">

@@ -7,6 +7,7 @@ url: "http://fidalgo.github.io" # the base hostname & protocol for your site
 twitter_username: kanniball
 github_username:  fidalgo
 stackoverflow_profile_url: 'http://stackoverflow.com/users/1006863/paulo-fidalgo?tab=profile'
+linkedin_profile_url: 'https://pt.linkedin.com/in/fidalgo'
 
 # Build settings
 markdown: kramdown
