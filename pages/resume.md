@@ -104,6 +104,7 @@ Project in partnership between Universidade de Evora and Saphety to give real wo
 ### Technologies
 J2SE, Linux, OpenLDAP, MySQL
 
+---
 
 # Other experience
 
