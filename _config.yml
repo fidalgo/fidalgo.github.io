@@ -1,14 +1,12 @@
 # Site settings
 title: Paulo Fidalgo
 email: paulo.fidalgo.pt@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Resume of Paulo Fidalgo a software engineer with Ruby on Rails and Hadoop skills.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fidalgo.github.io" # the base hostname & protocol for your site
 twitter_username: kanniball
 github_username:  fidalgo
+stackoverflow_profile_url: 'http://stackoverflow.com/users/1006863/paulo-fidalgo?tab=profile'
 
 # Build settings
 markdown: kramdown
