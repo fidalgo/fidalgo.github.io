@@ -112,7 +112,7 @@ J2SE, Linux, OpenLDAP, MySQL
 
 
 ### Context
-Co-founder and partner starting as a sole company with one Optician Center expanding later to the fashion clothes. In 2014 we moved to a limeted company.
+Co-founder and partner starting as a sole company with one Optician Center expanding later to the fashion clothes. In 2014 we moved to a limited company.
 
 ### Work
 * Dealing with suppliers of products and services
