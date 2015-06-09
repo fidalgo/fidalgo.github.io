@@ -16,7 +16,7 @@ permalink: /resume/
 
 
 #### Context
-Software engineer working both on the web component and backend big data processing
+Senior Software engineer working both on the web component and backend big data processing
 
 
 #### Projects
