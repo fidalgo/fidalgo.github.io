@@ -8,7 +8,7 @@ permalink: /resume/
 
 * Name: Paulo Fidalgo
 * Skype: paulo.fidalgo.pt
-* [Linkedin](https://www.linkedin.com/in/fidalgo) | [Twitter](https://twitter.com/kanniball) | [StackOverflow](http://stackoverflow.com/users/1006863/paulo-fidalgo)
+* [Linkedin](https://www.linkedin.com/in/fidalgo) || [Twitter](https://twitter.com/kanniball) || [StackOverflow](http://stackoverflow.com/users/1006863/paulo-fidalgo)
 
 # Software engineer
 
