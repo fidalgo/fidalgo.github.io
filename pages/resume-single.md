@@ -87,7 +87,7 @@ management and user self-care for a new generation communications service, provi
 * Analysis and requirements gathering for an ENUM (E.164 NUmber Mapping) server, with state of the art investigation and testing the available solutions and API’s.
 
 #### Technologies
-Linux, Java, Ruby on Rails, Bash, PostgreSQL, Subversion, Git,CVS, Redmin
+Linux, Java, Ruby on Rails, Bash, PostgreSQL, Subversion, Git,CVS, Redmine
 
 ---
 
