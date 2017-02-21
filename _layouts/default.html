@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+{% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-faded">
+                {% include sidebar.html %}
+            </div>
+            <div class="col scroll">
+                {{ content}}
+            </div>
+        </div>
     </div>
 
-    {% include footer.html %}
-
-  </body>
+</body>
 
 </html>

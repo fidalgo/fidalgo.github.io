@@ -1,7 +1,7 @@
 # Site settings
 title: Paulo Fidalgo
 email: paulo.fidalgo.pt@gmail.com
-description: Resume of Paulo Fidalgo a software engineer with Ruby on Rails and Hadoop skills.
+description: Paulo Fidalgo is a Ruby passionate, an entrepreneur and an remote backend developer at Talkdesk.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fidalgo.github.io" # the base hostname & protocol for your site
 twitter_username: kanniball
@@ -11,3 +11,8 @@ linkedin_profile_url: 'https://pt.linkedin.com/in/fidalgo'
 
 # Build settings
 markdown: kramdown
+sass:
+    style: :compressed
+
+collections:
+- positions

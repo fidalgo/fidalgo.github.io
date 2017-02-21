@@ -1,16 +1,13 @@
 ---
-layout: page
+layout: default
 title: Resume
-permalink: /resume/
+permalink: /old-resume/
 ---
+# Career Profile
 
-# Personal Information
-
-* Name: Paulo Fidalgo
-* Skype: paulo.fidalgo.pt
-* [Linkedin](https://www.linkedin.com/in/fidalgo) || [Twitter](https://twitter.com/kanniball) || [StackOverflow](http://stackoverflow.com/users/1006863/paulo-fidalgo)
-
-# Software engineer
+# Experience
+Paulo Fidalgo is software engineer with a computer science masters degree who have been working with Ruby, Rails and Java technologies mainly in the Telco market, moving later to a Big Data startup. Currently works with Ruby on Rails and Hadoop to create
+an awesome business matchmaking technology.
 
 ### [Novertur](http://www.novertur.com) 10/2014
 
@@ -25,7 +22,7 @@ Senior Software engineer working both on the web component and backend big data 
 
 
 #### Technologies
-Ruby, Ruby on Rails, Hadoop, Amazon EMR, Stanford CoreNLP, Elasticsearch
+Ruby, Ruby on Rails, Hadoop, Amazon EMR, Stanford CoreNLP, Elastic search
 
 ---
 
