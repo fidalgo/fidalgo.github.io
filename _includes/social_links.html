@@ -1,21 +1,19 @@
-<div class="col">
-    <h1>
-  {% if site.github_username %}
-  <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
-  {% endif %}
-  {% if site.stackoverflow_profile_url %}
-<a href="{{ site.stackoverflow_profile_url }}"><i class="fa fa-stack-overflow"></i></a>
-{% endif %}
-{% if site.linkedin_profile_url %}
-<a href="{{ site.linkedin_profile_url }}"><i class="fa fa-linkedin"></i></a>
-{% endif %}
-{% if site.twitter_username %}
-<a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
-{% endif %}
-
-  <a href="#" data-contact="cGF1bG8uZmlkYWxnby5wdEBnbWFpbC5jb20=" data-subj="Q29udGFjdCB2aWEgR2l0SHViIHBhZ2U=" onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')">
-    <i class="fa fa-envelope" aria-hidden="true"></i>
-  </a>
-
-</h1>
+<div class="col h-100 social-icons">
+  <section id="social-links">
+    <a href="https://github.com/{{ site.github_username }}" title="GitHub: https://github.com/{{ site.github_username }}">
+      <i class="fa fa-fw fa-github" aria-hidden="true"></i>
+    </a>
+    <a href="{{ site.stackoverflow_profile_url }}" title="StackOverflow: {{ site.stackoverflow_profile_url }}">
+      <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i>
+    </a>
+    <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter: https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
+    </a>
+    <a href="{{ site.linkedin_profile_url }}" title="Linkedin: {{ site.linkedin_profile_url }}">
+      <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
+    </a>
+    <a href="#" data-contact="cGF1bG8uZmlkYWxnby5wdEBnbWFpbC5jb20=" data-subj="Q29udGFjdCB2aWEgR2l0SHViIHBhZ2U=" onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
+  </section>
 </div>

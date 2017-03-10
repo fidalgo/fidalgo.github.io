@@ -1,15 +1,37 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+<h1 class="text-center">{{ page.title }}</h1> {% if page.subtitle %}
+<h3 class="text-center">{{ page.subtitle }}</h3> {% endif %}
 
+<p class="text-muted">
+  <span class="text-left">
+    Posted on {{ page.date | date: site.date_format }}
+    {% if page.update_date %}
+      Updated on {{ page.update_date | date: site.date_format }}
+    {% endif %}
+  </span>
+  <span class="text-right">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{ minutes }} minute read
+    </span>
+</p>
+
+
+<div class="card">
+  <div class="card-block">
+    <article>
+      <p class="text-justify">
+        {{ content }}
+      </p>
+    </article>
+  </div>
 </div>
+
+{% include share_buttons.html %}
