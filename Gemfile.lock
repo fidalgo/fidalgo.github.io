@@ -222,6 +222,7 @@ DEPENDENCIES
   github-pages (>= 104)
   jekyll-admin
   jekyll-avatar
+  jekyll-paginate
 
 BUNDLED WITH
    1.14.4
