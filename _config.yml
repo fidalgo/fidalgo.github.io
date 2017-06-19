@@ -1,7 +1,7 @@
 # Site settings
 title: Paulo Fidalgo
 email: paulo.fidalgo.pt@gmail.com
-description: Paulo Fidalgo is a Ruby passionate, an entrepreneur and an remote backend developer at Talkdesk.
+description: Paulo Fidalgo is a Ruby passionate, entrepreneur and a remote backend software engineer at Talkdesk.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fidalgo.github.io" # the base hostname & protocol for your site
 date_format: "%B %-d, %Y"

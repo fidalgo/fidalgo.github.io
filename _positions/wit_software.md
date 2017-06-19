@@ -11,7 +11,7 @@ Requirements analysis, specification, development, tests and deployment of an SI
 
 ### Projects
 * Development and maintenance of Push Notifications Gateway using Google Cloud Message, Apple Push Notifications and binary SMS.
-* Auto-Configuration Server allowing to send mobile application settings, according to the RCSe/RCS5 specifications.
-* Maintenance and evolution of an SIP Application Server. Maintenance and evolution of a media (audio and video) session transcoding in real time.
+* Auto-Configuration Server allowing sending mobile application settings, following the RCSe/RCS5 specifications.
+* Maintenance and evolution of an SIP Application Server. Maintenance and evolution of media (audio and video) session transcoding in real time.
 * Test planning and execution, deployments, upgrades and contingency plans.
 * Load and performance tests automation.

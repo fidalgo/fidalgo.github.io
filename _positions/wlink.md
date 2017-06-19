@@ -12,4 +12,4 @@ Project management with focus on web and multimedia content projects, in part-ti
 ### Projects
 * Ascertain the projects status and costumer perception, defining a roadmap for every project, monitoring and resource allocation.
 * Leading the recruiting process and contract external resources.
-* Specification and development of a communication module, using an RS232 serial port, with a custom made GSM modem switch.
+* Specification and development of a communication module, using an RS232 serial port, with a custom-made GSM modem switch.
