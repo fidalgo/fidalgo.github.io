@@ -7,8 +7,8 @@ url: "http://fidalgo.github.io" # the base hostname & protocol for your site
 date_format: "%B %-d, %Y"
 twitter_username: kanniball
 github_username:  fidalgo
-stackoverflow_profile_url: 'http://stackoverflow.com/users/1006863/paulo-fidalgo?tab=profile'
-linkedin_profile_url: 'https://pt.linkedin.com/in/fidalgo'
+stackoverflow_profile_url: 'http://stackoverflow.com/users/1006863/paulo-fidalgo'
+linkedin_profile_url: 'https://www.linkedin.com/in/fidalgo'
 
 # Build settings
 markdown: kramdown
