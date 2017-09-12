@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '>= 104', group: :jekyll_plugins
-gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll'
+gem 'jekyll-sitemap'
+gem 'jekyll-admin'
 gem 'jekyll-avatar'
 gem 'jekyll-paginate'
+gem 'prawn'
+gem 'prawn-table'
