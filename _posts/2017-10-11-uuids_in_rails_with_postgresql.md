@@ -122,6 +122,18 @@ in this case, the `belongs_to` specifies the foreign key, and since the Costumer
 
 To deal with the existing migrations, in the Rails way, you need to create more migrations, to change the `id`, `references`, `belongs_to` columns to `uuid` type.
 
+# Caveats
+
+Beware that `.first` and `.last` methods will lead to inconsistent results, because each method means lowest and highest ID, respectively.
+You can circumvent this by adding a default scope to all records, so in you `app/models/application_record.rb` file change to:
+
+```ruby
+class ApplicationRecord < ActiveRecord::Base
+  self.abstract_class = true
+  default_scope { order(created_at: :asc) }
+end
+```
+
 
 # Conclusions
 
