@@ -19,7 +19,7 @@ kramdown:
 sass:
     style: :compressed
 
-paginate:     4
+paginate:     10
 
 collections:
 - positions
