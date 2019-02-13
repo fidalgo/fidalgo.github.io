@@ -1,14 +1,14 @@
 # Site settings
 title: Paulo Fidalgo
 email: paulo.fidalgo.pt@gmail.com
-description: Paulo Fidalgo is a Ruby passionate, entrepreneur and a remote backend software engineer.
+description: Paulo Fidalgo is a Ruby passionate, entrepreneur and a backend software engineer that loves to work remotely.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.fidalgo.pt" # the base hostname & protocol for your site
 date_format: "%B %-d, %Y"
 twitter_username: kanniball
-github_username:  fidalgo
-stackoverflow_profile_url: 'http://stackoverflow.com/users/1006863/paulo-fidalgo'
-linkedin_profile_url: 'https://www.linkedin.com/in/fidalgo'
+github_username: fidalgo
+stackoverflow_profile_url: "http://stackoverflow.com/users/1006863/paulo-fidalgo"
+linkedin_profile_url: "https://www.linkedin.com/in/fidalgo"
 
 # Build settings
 markdown: kramdown
@@ -17,12 +17,12 @@ kramdown:
   syntax_highlighter: rouge
 
 sass:
-    style: :compressed
+  style: :compressed
 
-paginate:     10
+paginate: 10
 
 collections:
-- positions
+  - positions
 
 gems:
   - jekyll-paginate
