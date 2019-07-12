@@ -1,8 +1,9 @@
+---
 # Site settings
 title: Paulo Fidalgo
 email: paulo.fidalgo.pt@gmail.com
 description: Paulo Fidalgo is a Ruby passionate, entrepreneur and a backend software engineer that loves to work remotely.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" #the subpath of your site, e.g. /blog/
 url: "http://www.fidalgo.pt" # the base hostname & protocol for your site
 date_format: "%B %-d, %Y"
 twitter_username: kanniball
@@ -24,6 +25,6 @@ paginate: 10
 collections:
   - positions
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
