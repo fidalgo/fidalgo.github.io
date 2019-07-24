@@ -1,0 +1,30 @@
+<header class="resume-header pt-4 pt-md-0">
+  <div class="media flex-column flex-md-row">
+    <img class="mr-3 img-fluid picture mx-auto" src="/assets/images/profile.jpeg" alt="">
+    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+      <div class="primary-info">
+        <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Paulo Fidalgo</h1>
+        <div class="title mb-3">Software Developer</div>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>
+              <script>
+                (function whatever() {
+                  var s = '@'
+                    , n = 'paulo.fidalgo.pt'
+                    , k = 'gmail.com'
+                    , e = n + s + k
+                    , l = '<a href=mailto:#spam@spammers.com#>#spam@spammers.net#</a>'.replace(/#.+?(#)/g, e)
+                  ;
+                  document.write(l);
+                })();
+              </script>
+            </a></li>
+            <li><a href="#"><i class="fas fa-globe fa-fw mr-2" data-fa-transform="grow-6"></i>{{site.url}}</a></li>
+        </ul>
+      </div><!--//primary-info-->
+      <div class="secondary-info ml-md-auto mt-2">
+        {% include social_links.html %}
+      </div><!--//secondary-info-->
+    </div><!--//media-body-->
+  </div><!--//media-->
+</header>

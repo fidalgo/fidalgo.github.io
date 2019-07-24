@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts_count = (paginator.posts | size) %}
+{% assign posts_count = paginator.posts | size %}
 
   {% if posts_count > 0 %}
       {% for post in paginator.posts %}

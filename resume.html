@@ -1,133 +1,153 @@
 ---
 author: Paulo Fidalgo
 title: Paulo Fidalgo Resume
-layout: single_page
+layout: resume
 permalink: /resume
 ---
-<br>
 
-<div class="card-deck">
-  <div class="card card-outline-primary mb-3 bg-faded">
-      <img class="img-fluid align-middle mx-auto rounded-circle img-thumbnail" src="/assets/images/profile.jpeg" alt="Paulo Fidalgo" />
+<article class="resume-wrapper text-center position-relative">
+  <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+
+    {% include resume/header.html %}
+
+    <div class="resume-body p-5">
+      <section class="resume-section summary-section mb-5">
+        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
+        <div class="resume-section-content">
+          <p class="mb-0">
+          Paulo Fidalgo is software engineer, with a computer science master's degree who has been working with Ruby, Rails and Java technologies. Living near Porto, Portugal and working remotely started in the Telco market working in the backend areas of SMS-Centres,
+          integrations, and real-time communications (audio, video and text). A move to the startup scene allowed him to work and lead the team on Big Data and Natural Language Processing, working on the call routing systems providing integrated customer support
+          and helped the wealth managers to use the best information available to unlock the full potential of the Research Reports, Events and Forecast Models.
+          </p>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col-lg-9">
+          <section class="resume-section experience-section mb-5">
+            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+            <div class="resume-section-content">
+              <div class="resume-timeline position-relative">
+                {% include resume/work_experience.html %}
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-lg-3">
+          <section class="resume-section skills-section mb-5">
+            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+            <div class="resume-section-content">
+              <div class="resume-skill-item">
+                <h4 class="resume-skills-cat font-weight-bold">Languages</h4>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <div class="resume-skill-name">Ruby</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <div class="resume-skill-name">Java</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <div class="resume-skill-name">JavaScript</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="resume-skill-item">
+                <h4 class="resume-skills-cat font-weight-bold">Frameworks</h4>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <div class="resume-skill-name">Ruby on Rails</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <div class="resume-skill-name">Padrino</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <div class="resume-skill-name">Roda</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <div class="resume-skill-name">Spring boot</div>
+                    <div class="progress resume-progress">
+                      <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div><!--//resume-skill-item-->
+
+              <div class="resume-skill-item">
+                <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><span class="badge badge-light">PostreSQL</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">Redis</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">TDD</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">OOP</span></li>
+                  <li class="list-inline-item"><span class="badge badge-light">Linux</span></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="resume-section education-section mb-5">
+            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+            <div class="resume-section-content">
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <div class="resume-degree font-weight-bold">Master's Degree in Computer Science</div>
+                  <div class="resume-degree-org">Universidade de Evora</div>
+                  <div class="resume-degree-time">2008</div>
+                </li>
+                <li>
+                  <div class="resume-degree font-weight-bold">Graduation in Computer Science</div>
+                  <div class="resume-degree-org">Universidade de Evora</div>
+                  <div class="resume-degree-time">2006</div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="resume-section language-section mb-5">
+            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+            <div class="resume-section-content">
+              <ul class="list-unstyled resume-lang-list">
+                <li class="mb-2"><span class="resume-lang-name font-weight-bold">Portuguese</span> <small class="text-muted font-weight-normal">(Native)</small></li>
+                <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+                <li><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Basic)</small></li>
+              </ul>
+            </div>
+          </section>
+          <section class="resume-section interests-section mb-5">
+            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+            <div class="resume-section-content">
+              <ul class="list-unstyled">
+                <li class="mb-1">Opensource</li>
+                <li class="mb-1">Wine</li>
+                <li class="mb-1">Food</li>
+              </ul>
+            </div>
+          </section>
+
+        </div>
+      </div><!--//row-->
+    </div><!--//resume-body-->
+
   </div>
-
-  <div class="card card-outline-primary mb-3 bg-faded">
-    <div class="card-body">
-      <h4 class="card-title text-center">Biosketch</h4>
-      <p class="card-text text-muted m-2">
-        Paulo Fidalgo is software engineer, with a computer science master's degree who have been working with Ruby, Rails and Java technologies. Living near Porto, Portugal and working remotely started in the Telco market working in the backend areas of SMS-Centres
-        integrations and real-time audio, video and chats. A move to the startup scene allowed him to work on Big Data and Natural Language Processing to create awesome business matchmaking technology. After working on the call routing systems to help
-        Talkdesk providing brilliant customer interactions. Later he moves to the Fintech where it's helps the wealth managers to use the best research available and unlock the full potencial of the Research Reports, Events and Models combo.
-      </p>
-    </div>
-  </div>
-
-  <div class="card card-outline-primary mb-3 bg-faded">
-    <div class="card-body">
-      <h4 class="card-title text-center">Contacts</h4>
-      <div class="card-text text-muted m-2">
-        <p>
-          <a href="https://github.com/{{ site.github_username }}" title="GitHub: https://github.com/{{ site.github_username }}">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i>https://github.com/{{ site.github_username }}
-          </a>
-        </p>
-        <p>
-          <a href="{{ site.stackoverflow_profile_url }}" title="StackOverflow: {{ site.stackoverflow_profile_url }}">
-            <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i>{{ site.stackoverflow_profile_url }}
-          </a>
-        </p>
-
-        <p>
-          <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter: https://twitter.com/{{ site.twitter_username }}">
-            <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>https://twitter.com/{{ site.twitter_username }}
-          </a>
-        </p>
-
-        <p>
-          <a href="{{ site.linkedin_profile_url }}" title="Linkedin: {{ site.linkedin_profile_url }}">
-            <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>{{ site.linkedin_profile_url }}
-          </a>
-        </p>
-
-        <p>
-          <a href="#" data-contact="cGF1bG8uZmlkYWxnby5wdEBnbWFpbC5jb20=" data-subj="Q29udGFjdCB2aWEgR2l0SHViIHBhZ2U=" onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')">
-              <i class="fa fa-envelope" aria-hidden="true"> paulo.fidalgo.pt@gmail.com </i>
-            </a>
-        </p>
-
-        <p>
-        <a href="http://fidalgo.pt" title="Website: http://fidalgo.pt">
-          <i class="fa fa-fw fa-link" aria-hidden="true"></i>http://fidalgo.pt
-        </a>
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<h2>Experience</h2> {% assign positions=site.positions | sort: "start_date" | reverse %} {% for position in positions %}
-
-<div class="card card-outline-primary mb-3">
-  <div class="card-block">
-    <h4 class="card-title">{{ position.employer }}</h4>
-    <h6 class="card-subtitle mb-2 text-muted">{{ position.title }}</h6>
-    <p class="card-text">{{ position.output }}</p>
-    <p class="card-text">
-      <small class="text-muted">
-        {{ position.start_date | date: '%B %Y' }} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
-      </small>
-    </p>
-    {% assign technologies = position.technologies | split: ","%}
-    <div class="col">
-      {% for technology in technologies %}
-      <span class="badge badge-pill badge-primary">{{technology}}</span> {% endfor %}
-    </div>
-  </div>
-</div>
-
-{% assign previous_employer=position.employer %} {% endfor %}
-
-<div class="mt-5"></div>
-<h2>Education</h2>
-
-<div class="card-deck">
-  <div class="card card-outline-primary mb-3">
-    <div class="card-block">
-      <h4 class="card-title">Master's Degree in Computer Science</h4>
-      <h6 class="card-subtitle mb-2 text-muted">2008</h6>
-      <p class="card-text">Universidade de Evora</p>
-    </div>
-  </div>
-
-  <div class="card card-outline-primary mb-3">
-    <div class="card-block">
-      <h4 class="card-title">Graduation in Computer Science</h4>
-      <h6 class="card-subtitle mb-2 text-muted">2006</h6>
-      <p class="card-text">Universidade de Evora</p>
-    </div>
-  </div>
-</div>
-
-<div class="mt-5"></div>
-<h2>Languages</h2>
-<div class="card-deck">
-  <div class="card card-outline-primary mb-3">
-    <div class="card-block">
-      <h4 class="card-title">Portuguese</h4>
-      <h6 class="card-subtitle mb-2 text-muted">Native</h6>
-    </div>
-  </div>
-  <div class="card card-outline-primary mb-3">
-    <div class="card-block">
-      <h4 class="card-title">English</h4>
-      <h6 class="card-subtitle mb-2 text-muted">Full professional proficiency</h6>
-    </div>
-  </div>
-  <div class="card card-outline-primary mb-3">
-    <div class="card-block">
-      <h4 class="card-title">Spanish</h4>
-      <h6 class="card-subtitle mb-2 text-muted">Limited working proficiency</h6>
-    </div>
-  </div>
-</div>
+</article>
