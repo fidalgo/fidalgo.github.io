@@ -4,10 +4,7 @@ title: Software Developer
 start_date: 2005-06-01
 end_date: 2005-09-01
 technologies: J2SE, Linux, OpenLDAP, MySQL
+
+description: Solo developer for a project allowing data synchronization between an LDAP directory and a relational database
+
 ---
-
-## Context
-Project in partnership between Universidade de Évora and Saphety to give real work context
-
-## Project
-* Analysis and development of software for data synchronization between an LDAP directory and a relational database
