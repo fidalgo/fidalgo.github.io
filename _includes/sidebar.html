@@ -13,6 +13,24 @@
 
   <div class="mx-auto p-2">
     <p class="text-center">Contact me</p>
-    {% include social_links.html %}
+    <div class="col h-100 social-icons">
+      <section id="social-links">
+        <a href="{{ site.github }}" title="{{ site.github }}">
+          <i class="fa fa-fw fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="{{ site.stackoverflow }}" title="{{ site.stackoverflow }}">
+          <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i>
+        </a>
+        <a href="{{ site.twitter }}" title="{{ site.twitter }}">
+          <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="{{ site.linkedin }}" title="{{ site.linkedin }}">
+          <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="#" data-contact="cGF1bG8uZmlkYWxnby5wdEBnbWFpbC5jb20=" data-subj="Q29udGFjdCB2aWEgR2l0SHViIHBhZ2U=" onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </section>
+    </div>
   </div>
 </div>

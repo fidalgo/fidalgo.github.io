@@ -1,19 +1,6 @@
-<div class="col h-100 social-icons">
-  <section id="social-links">
-    <a href="https://github.com/{{ site.github_username }}" title="GitHub: https://github.com/{{ site.github_username }}">
-      <i class="fa fa-fw fa-github" aria-hidden="true"></i>
-    </a>
-    <a href="{{ site.stackoverflow_profile_url }}" title="StackOverflow: {{ site.stackoverflow_profile_url }}">
-      <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i>
-    </a>
-    <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter: https://twitter.com/{{ site.twitter_username }}">
-      <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
-    </a>
-    <a href="{{ site.linkedin_profile_url }}" title="Linkedin: {{ site.linkedin_profile_url }}">
-      <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
-    </a>
-    <a href="#" data-contact="cGF1bG8uZmlkYWxnby5wdEBnbWFpbC5jb20=" data-subj="Q29udGFjdCB2aWEgR2l0SHViIHBhZ2U=" onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')">
-      <i class="fa fa-envelope" aria-hidden="true"></i>
-    </a>
-  </section>
-</div>
+<ul class="resume-social list-unstyled">
+  <li class="mb-3"><a href="{{site.github}}"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>{{site.github}}</a></li>
+  <li class="mb-3"><a href="{{site.twitter}}"><span class="fa-container text-center mr-2"><i class="fab fa-twitter fa-fw"></i></span>{{site.twitter}}</a></li>
+  <li class="mb-3"><a href="{{site.stackoverflow}}"><span class="fa-container text-center mr-2"><i class="fab fa-stack-overflow fa-fw"></i></span>{{site.stackoverflow}}</a></li>
+  <li class="mb-3"><a href="{{site.linkedin}}"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>{{site.linkedin}}</a></li>
+</ul>
