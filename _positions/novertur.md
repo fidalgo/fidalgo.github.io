@@ -1,6 +1,6 @@
 ---
 employer: Novertur International SA
-title: Senior Software Engineer
+title: Senior Software Engineer (remote)
 start_date: 2014-10-01
 end_date: 2016-03-30
 technologies: Ruby, Ruby on Rails, Hadoop, Amazon EMR, Stanford CoreNLP, Elastic search

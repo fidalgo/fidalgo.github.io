@@ -1,6 +1,6 @@
 ---
 employer: Visible Alpha
-title: Software Engineer
+title: Software Engineer (remote)
 start_date: 2017-10-01
 technologies: Ruby, Rails, PostgreSQL, ElasticSearch, ActiveMQ, Google PubSub, Cloudformation, Kubernetes, Docker
 

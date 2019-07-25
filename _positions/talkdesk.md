@@ -1,6 +1,6 @@
 ---
 employer: Talkdesk Inc
-title: Software Engineer
+title: Software Engineer (remote)
 start_date: 2016-04-01
 end_date: 2017-10-01
 technologies: Ruby, Redis, MongoDB, Zookeeper, RabbitMQ, Padrino, Roda
