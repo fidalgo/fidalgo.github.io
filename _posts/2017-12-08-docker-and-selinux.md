@@ -60,6 +60,23 @@ So got to the root directory of your project or your workspace, in case you have
 
 `sudo chcon -Rt svirt_sandbox_file_t /path/to/worksapce_or_project`
 
+# If you still cannot access internet inside your container
+
+In my recent Fedora 33 installation I have to perform some changes to the firewal in order to access the internet. An bug report is already open at [Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=1817022).
+The root issue is we do not have [IP Masquerading](https://tldp.org/HOWTO/IP-Masquerade-HOWTO/ipmasq-background2.1.html) enabled.
+First get the list of active zones: `sudo firewall-cmd --get-active-zones`
+
+```
+docker
+  interfaces: docker0
+public
+  interfaces: enp56s0u1u1
+```
+
+Then I need to add the masquerade to the `public` interfaces.
+`sudo firewall-cmd --zone=public --add-masquerade`
+
+ Note, that in several search results, instead of `public` you may seen `FedoraWorkstation`, so in the previous command you need to replace `public` with `FedoraWorstation`.
 
 # Conclusion
 
