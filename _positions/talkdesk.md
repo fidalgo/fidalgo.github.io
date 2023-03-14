@@ -1,20 +1,15 @@
 ---
 employer: Talkdesk Inc
-title: Software Engineer (remote)
+title: Software Engineering Lead (remote)
 start_date: 2016-04-01
 end_date: 2017-10-01
 technologies: Ruby, Redis, MongoDB, Zookeeper, RabbitMQ, Padrino, Roda
 
-description: Backend engineer working on routing and processing calls and texts for a cloud contact centre solution.
-
+description: |
+    As the lead engineer for Talkdesk's call-routing system, I assumed full ownership of the core system and architected a new generation solution that elevated the platform's performance, scalability, and flexibility. The system was able to support major call features, including routing calls to the right destination, managing call recordings, waiting queues, and agent statuses, ensuring that Talkdesk remained at the forefront of the industry
 projects:
 - |
-  Working on the legacy system, improving the code readability and performance and doing the usual maintenance and new features.
-  The core system, still responsible for major call features, routing calls to the right destination, managing the call recordings, waiting queues and agent's statuses.
-  The system has integrations with several providers like Twilio, Plivo and regular SIP and works based on HTTP API calls.
+    Optimized Talkdesk's legacy call-routing system, enhancing its functionality and performance while maintaining code readability and adding new features that improved call routing capabilities. My leadership helped to establish integrations with leading providers like Twilio and Plivo, as well as enabling seamless integrations with SIP protocol.
 - |
-  Definition of a new generation system, able to phase out the legacy one, providing a couple of new features built on a microservices architecture approach.
-  The new system was designed to phase out the legacy one, allowing each customer to set a custom workflow on each number. Built to be horizontally scalable and flexible to provide all the integrations needed,
-  like Salesforce or customer's custom systems.
-
+    Spearheaded the development of a new-generation solution that seamlessly phased out the legacy system while providing customers with greater flexibility and customization. By leveraging microservices architecture, this system allowed customers to set custom workflows for each number while being horizontally scalable and flexible enough to integrate with third-party systems like Salesforce or custom solutions.
 ---
