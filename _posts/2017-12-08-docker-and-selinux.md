@@ -5,8 +5,8 @@ subtitle: How to properly get docker working with Linux with SELinux enabled
 tags: docker linux selinux
 ---
 
-From time to time I need to get this working, either by a new computer or some reinstall. Lately I had to do this twice because
-my new Dell XPS laptop needed to be serviced and I had to reinstall my OS of choice: Fedora Linux.
+From time to time I need to get this working, either by a new computer or some reinstall. Lately, I had to do this twice because
+my new Dell XPS laptop needed to be serviced, and I had to reinstall my OS of choice: Fedora Linux.
 
 From now one, I assume you already have docker installed, in my case (Fedora Linux) is just a matter of typing:
 `sudo dnf install docker`
@@ -14,7 +14,7 @@ From now one, I assume you already have docker installed, in my case (Fedora Lin
 # Change the default docker directory
 
 Since I don't want docker to pollute my `/user` directory, I usually create a new directory just to hold the docker images and files.
-In this case I will use `/home/docker`, since I have a very large partition for the `/home`.
+In this case, I will use `/home/docker`, since I have a very large partition for the `/home`.
 
 `sudo vim /etc/sysconfig/docker`
 
@@ -33,7 +33,7 @@ to your user's groups.
 
 <!-- from https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user -->
 
-To ensure you can run docker with your user and ditch the `sudo` usage, you need to create group and add user to the group:
+To ensure you can run docker with your user and ditch the `sudo` usage, you need to create a group and add the user to the group:
 
 Create the docker group.
 
@@ -62,9 +62,9 @@ So got to the root directory of your project or your workspace, in case you have
 
 # If you still cannot access internet inside your container
 
-In my recent Fedora 33 installation I have to perform some changes to the firewal in order to access the internet. An bug report is already open at [Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=1817022).
+In my recent Fedora 33 installation, I have to perform some changes to the firewall in order to access the internet. A bug report is already open at [Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=1817022).
 The root issue is we do not have [IP Masquerading](https://tldp.org/HOWTO/IP-Masquerade-HOWTO/ipmasq-background2.1.html) enabled.
-First get the list of active zones: `sudo firewall-cmd --get-active-zones`
+First, get the list of active zones: `sudo firewall-cmd --get-active-zones`
 
 ```
 docker
@@ -76,7 +76,7 @@ public
 Then I need to add the masquerade to the `public` interfaces.
 `sudo firewall-cmd --zone=public --add-masquerade`
 
- Note, that in several search results, instead of `public` you may seen `FedoraWorkstation`, so in the previous command you need to replace `public` with `FedoraWorstation`.
+ Note, that in several search results, instead of `public` you may see `FedoraWorkstation`, so in the previous command you need to replace `public` with `FedoraWorstation`.
 
 # Conclusion
 

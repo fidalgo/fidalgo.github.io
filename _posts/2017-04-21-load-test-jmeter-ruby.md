@@ -15,7 +15,7 @@ Because it's open source and can be scriptable to run in headless mode, avoiding
 all the overhead GUI's create, specially in an application written in Java.
 Also, because it's written in Java we can take advantage of the thread system, and
 squeeze our machines to do more requests.
-On Google is one of the top results for `HTTP load test software`,
+On Google, is one of the top results for `HTTP load test software`,
 on Stackoverflow, when asking for a [tool to perform stress tests on web application](http://stackoverflow.com/q/7492/1006863)
 it also came as the [first suggestion](http://stackoverflow.com/a/92501/1006863).
 
@@ -107,7 +107,7 @@ INFO o.a.j.r.Summariser: summary =     59 in 00:01:09 =    0.9/s Avg: 10664 Min:
 {% endhighlight %}
 
 # Conclusions
-With this Ruby DSL it's very easy to create a maintainable version of our load tests and still have the flexibility to control some outputs.
+With this Ruby DSL, it's very easy to create a maintainable version of our load tests and still have the flexibility to control some outputs.
 Also, we can still use JMeter to draw some graphics if needed, like if we had specified all the tests in the JMeter itself.
 So we get the best of both worlds, first the ability to easily define our tests and second the power to use the same old tools to do the dirty job.
 

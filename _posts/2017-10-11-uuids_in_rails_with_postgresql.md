@@ -8,7 +8,7 @@ tags: ruby rails uuid postgresql
 
 UUID stands for Universally Unique IDentifier, a standard used to get unique identifiers for resources.
 The major benefit of using UUID as identifier is that it can be generated without collisions in different systems, so we can have several systems
-geneting IDs.
+generating IDs.
 
 # What are UUIDS and when to use them
 
@@ -31,7 +31,7 @@ insertion time. So when moving to UUIDS you need to ensure that you have a prope
 Another one is the size, with an Integer you have 4 bytes instead of 36 from the UUIDS, this matters in terms of space for the `id` field itself and the indexes, since we're indexing a
 String.
 
-Also you cannot use UUIDs for sorting, since they are randomly generated, so the fields using UUIDs cannot be used for sharding data, but surely there's a lot of other possibilities to
+Also you cannot use UUIDs for sorting, since they are randomly generated, so the fields using UUIDs cannot be used for sharding data, but surely there are a lot of other possibilities to
 be the source of sharding.
 
 
@@ -43,7 +43,7 @@ If you're using PostgreSQL >= 9.4, ActiveRecord will use the `gen_random_uuid` f
 
 ## Add a migration
 
-To enable the extension we need to create a migration:
+To enable the extension, we need to create a migration:
 
 `$ rails generate migration enable_pgcrypto_extension`
 
@@ -137,6 +137,6 @@ end
 
 # Conclusions
 
-It's very easy to setup the UUIDs in a Ruby on Rails application when you're using PostgreSQL, and you're avoiding some pains of data merge in the future.
-Surely you loose the ability to easily identify your records, but it would pay off in the end of day.
+It's easy to setup the UUIDs in a Ruby on Rails application when you're using PostgreSQL, and you're avoiding some pains of data merge in the future.
+Surely you lose the ability to easily identify your records, but it would pay off at the end of the day.
 Also, since you're using your native database functions, the performance penalty shouldn't be noticeable, but that's an exercise you need to do in order to evaluate if it's worth or not... and in case you want to try it, I hope I've helped you to setup it.
