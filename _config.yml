@@ -1,8 +1,7 @@
 ---
 # Site settings
 title: Paulo Fidalgo
-email: paulo.fidalgo.pt@gmail.com
-description: Paulo Fidalgo is a Ruby passionate, entrepreneur and a backend software engineer that loves to work remotely.
+description: Paulo Fidalgo is an accomplished software engineering leader passionate about creating customer-centric products through expertise in backend software and distributed systems. With almost a decade of experience working remotely, he brings business and product-oriented insights to every project he undertakes.
 baseurl: "" #the subpath of your site, e.g. /blog/
 url: "http://www.fidalgo.pt" # the base hostname & protocol for your site
 date_format: "%B %-d, %Y"
