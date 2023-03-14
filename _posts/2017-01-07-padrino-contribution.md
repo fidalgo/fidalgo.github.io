@@ -11,7 +11,7 @@ lighter compared with Ruby on Rails, but complete enough to create full-blown we
 Padrino allows setting default values in the controllers to be passed as URL parameters
 in case we don't provide it, either via HTTP request parameters or via parameters in the
 `absolute_url` method, to compute the final URL of a request.
-In a quest to find the source of an odd behaviour I ended finding a bug in the
+In a quest to find the source of an odd behaviour, I ended finding a bug in the
 framework.
 
 
@@ -78,11 +78,12 @@ def expand(params)
 end
 {% endhighlight %}
 
-In the method's first line the code is using the given parameters and merging them
-with the defaults ones, but what we want is the otherwise. We want the default parameters to be overridden by the ones we provide. So it seems a quick fix!
+In the method's first line, the code is using the given parameters and merging them
+with the defaults ones, but what we want the other way around.
+We want the default parameters to be overridden by the ones we provide. So it seems a quick fix!
 
 So I went to read the [contribution guidelines](https://github.com/padrino/padrino-framework#bug-reporting) and opened a [bug](https://github.com/padrino/padrino-framework/issues/2113).
-Later on I've opened a [Pull Request](https://github.com/padrino/padrino-framework/pull/2114).
+Later on, I've opened a [Pull Request](https://github.com/padrino/padrino-framework/pull/2114).
 
 It was good to see that if you have a good Git work flow and follow some principles on creating issues and commit messages, it will ease the acceptance.
 So in this case, it was accepted without any question!

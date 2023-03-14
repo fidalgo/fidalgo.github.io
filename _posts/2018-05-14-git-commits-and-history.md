@@ -5,17 +5,17 @@ subtitle: A reflection on how to use Git commits to document changes and decisio
 tags: git
 ---
 
-Git is a very powerful tool, that can be used to more than just archiving code and give you the possibility to revert and track changes.
-If you use it wisely, even if you don't have the git-foo powers your project can benefit from it.
-Sometimes, while browsing around some code on github or gitlab I struggle to find some reasoning for changes,
+Git is a very powerful tool, that can be used for more than just archiving code and give you the possibility to revert and track changes.
+If you use it wisely, even if you don't have the git-foo powers, your project can benefit from it.
+Sometimes, while browsing around some code on GitHub or GitLab I struggle to find some reasoning for changes,
 why those files we're changed or why something was implemented that way.
 The climax is when you found a commit message with tons of changes, spread across several files and the commit message:
-`misc fixes` or another vague title, that says absolute nothing about the change. 
+`misc fixes` or another vague title, that says absolute nothing about the change.
 
-Transposing this to a company project, I believe it's even more important, because people come and go to the projects and we
-sometimes struggle to find the reasoning for changing or why the develop choose that approach instead of another one.
+Transposing this to a company project, I believe it's even more important, because people come and go to the projects, and we
+sometimes struggle to find the reasoning for changing or why the developer choose that approach instead of another one.
 If there's no place with that information, we're left in the dark and may start to do some changes and will wither be rejected
-at review time (in the best case) or released in production and lead to unexpected behaviour (in case the change was made due some restrictions).
+at review time (in the best case) or released in production and lead to unexpected behaviour (in case the change was made due to some restrictions).
 
 So what can we do to avoid this and save precious developer hours or, for someone like me, who's very found of cheese and
 tend to forget the reasoning's after sometime?
@@ -23,8 +23,9 @@ Use, what you already need to write: ***the commit message***!
 
 # Unleash the power of the commit messages
 
-In order to make the best use the of Git utilities to work with commits history we must follow some rules. If you're not
-used to them, it may looks too overwhelming at the beginning, but after a fer commits you'll start to see the light and benefit from them. Also a good place to start enforcing these is in the code review process, including the format and content of commit messages as part of the review process.
+In order to make the best use of the of Git utilities to work with commits history, we must follow some rules. If you're not
+used to them, it may look too overwhelming at the beginning, but after a fer commits you'll start to see the light and benefit from them.
+Also, a good place to start enforcing is at the code review process, including the format and content of commit messages as part of the review process.
 
 What to include in the commit message?
 
@@ -40,16 +41,16 @@ This information will help the reviewer or person looking through the project hi
 
 **How this change will fulfil his purpose?**
 
-High level description of what have been done and what approach was taken to fulfil the requirements. If there's alternative approaches that we're tried and failed, I like to enumerate them along with their downsides to better justify the approach taken.
+High level description of what have been done and what approach was taken to fulfil the requirements. If there are alternative approaches that we're tried and failed, I like to enumerate them along with their downsides to better justify the approach taken.
 
 **What will this change affect the system?**
 
-What are the side-effects of this change.
+What are the side effects of this change.
 
 
 # The format of the commit messages
 
-In this section I will give an example of what is considered a good commit message. Note that I'm not the creator of this format, it's just a mere observation of other projects best practices with some reasoning around.
+In this section, I will give an example of what is considered a good commit message. Note that I'm not the creator of this format, it's just a mere observation of other projects best practices with some reasoning around.
 
     Short summary with less than 50 chars
 
@@ -76,31 +77,32 @@ That's the obvious separation between the title and the body
 
 **72 char lines**
 
--   `git log` does not do any special special wrapping of the commit messages. With an 80 char terminal, we'll have to have room for identation.
+-   `git log` does not do any special wrapping of the commit messages. With an 80 char terminal, we'll have to have room for indentation.
 -   GitHub/GitLab don't break lines
--   An exception to this rule can be applied when quoting something or other text with a _special_ formatting.   
+-   An exception to this rule can be applied when quoting something or other text with a _special_ formatting.
 
 **Use of the imperative**
 
-Because it matches  with commit messages generated by commands like `git merge` and `git revert` and consistency is a odd thing.
+Because it matches  with commit messages generated by commands like `git merge` and `git revert` and consistency is an odd thing.
 
 ## Useful tips for a sane commit history
 
 **Never user git commit -m**
-  
-  This way, you will ever have an proper editor window
+
+  This way, you will ever have a proper editor window
 
 **Never mix two changes in the same commit**
 
-  If your commit addresses one issue, solve that issue in only one commit, if you need other changes, add as much commit messages as you need. For example if an issue needs an updated on you dependencies, add one commit to update it and then another to address the issue. Remember that in Git history, like the real world, order is important.
+  If your commit addresses one issue, solve that issue in only one commit, if you need other changes, add as much commit messages as you need.
+  For example, if an issue needs an updated on your dependencies, add one commit to update it and then another to address the issue. Remember that in Git history, like the real world, order is important.
 
 **Make sure every commit is green**
 
   Every commit should pass you CI,
 
-**Use squash and fixup**
+**Use squash and fix up**
 
-By the sum of the previous two, sometimes we need to have intermediary commits with smaller changes or experiments. It's OK to have them, but remember to squash or fixup them, before the Pull/Merge Request.
+By the sum of the previous two, sometimes we need to have intermediary commits with smaller changes or experiments. It's OK to have them, but remember to squash or fix up them, before the Pull/Merge Request.
 
 
 ## Bonus content
@@ -116,11 +118,11 @@ Imagine that you have three temporary commits and want to merge all the changes 
 
 `git rebase -i HEAD~3`
 
-meaning you want to interactively (`-i`) change the last three commits. At this point you'll get:
+meaning you want to interactively (`-i`) change the last three commits. At this point, you'll get:
 
 ```
-pick abfc1db01f Fix test case 
-pick 70e3d1ea9d Fix typo 
+pick abfc1db01f Fix test case
+pick 70e3d1ea9d Fix typo
 pick b54e5706e7 Improve documentation
 
 # Rebase 4b010b0815..3e46cf7533 onto 4b010b0815 (3 commands)
@@ -144,7 +146,8 @@ pick b54e5706e7 Improve documentation
 
 ```
 
-So you'll change the comman from `pick` to `squash` (`s`) or `fixup` (`f`) if you want to discard the commit messages. After saving you'll have an editor to input your commit message and _voilá_.
+So you'll change the command from `pick` to `squash` (`s`) or `fixup` (`f`) if you want to discard the commit messages.
+After saving, you'll have an editor to input your commit message and _voilá_.
 
 If you have pushed the commits to your remote (server), you'll need to do a `--force-with-lease` to override the old commits.
 
@@ -158,8 +161,7 @@ Add the editor to the core section of your `.gitconfig` file:
   editor = vim
 ```
 
-Personally I would recommend to use vim-fugitive plugin, but adding this line to your `.vimrc` also work as a minimalist solution:
+Personally, I would recommend to use vim-fugitive plugin, but adding this line to your `.vimrc` also work as a minimalist solution:
 `autocmd Filetype gitcommit setlocal spell textwidth=72`
 
 To know more about vim-fugitive check [it's page](https://github.com/tpope/vim-fugitive)
-

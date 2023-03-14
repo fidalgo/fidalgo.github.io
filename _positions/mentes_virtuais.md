@@ -6,7 +6,7 @@ end_date: 2009-07-01
 technologies: Linux, Java, Ruby on Rails, PostgreSQL
 
 description: |
-    As a solo developer, I spearheaded the development of a web application for managing and administering a new-generation communication service, providing fixed-mobile convergence in an IMS context.
+   As an intern, I accomplished two significant feats that helped the company immensely. Firstly, I created a project that was embraced by several local radio stations and used commercially. Secondly, I took the lead on a project that was later passed on to a different team, ensuring that it adhered to the highest standards and best practices.
 
 projects:
 - As a solo developer, I spearheaded the development of a web application for managing and administering a new-generation communication service, providing fixed-mobile convergence in an IMS context.

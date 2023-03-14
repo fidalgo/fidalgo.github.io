@@ -4,7 +4,7 @@ title: Co-founder and partner
 start_date: 2010-05-01
 
 description: |
-    As a co-founder and partner of a sole trading company, I have demonstrated a relentless entrepreneurial spirit, taking one Optician Center shop and expanding it into a thriving business amidst the challenging financial crisis of 2008. My passion for entrepreneurship and commitment to excellence has been instrumental in driving our success.
+    As a co-founder and partner of a sole trading company, I have demonstrated a relentless entrepreneurial spirit, taking one Optician Center shop and expanding it into a thriving business amidst the challenging financial crisis of 2008.
 
 projects:
     - As a hands-on leader, I played a crucial role in diversifying our offerings by expanding our business with a women's clothes shop just a year after our inception. With a strategic mindset, I provided critical support in order management, legal matters, finances, and contracts with partners and suppliers. This allowed us to build strong relationships and deliver exceptional products and services to our customers.
