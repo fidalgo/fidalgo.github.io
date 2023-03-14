@@ -11,5 +11,5 @@ projects:
 - |
     One of my notable achievements was leading the development of the Business Matchmaking reports. This project involved leveraging Hadoop running in Amazon EMR to compute scores for a company's allies, distributors, competitors, and suppliers in a foreign country, based on the company's website data and business registration information. Through my leadership, we were able to deliver a cutting-edge solution that enabled our clients to make data-driven decisions with ease and efficiency.
 - |
-    Played a key role in developing a web application that allows for the ordering and visualization of reports and company information. This application streamlined our clients' operations and provided them with a user-friendly interface for accessing critical business insights.
+    Played a key role in developing a web application that allows for the ordering and visualization of reports and company information. This application streamlined our client's operations and provided them with a user-friendly interface for accessing critical business insights.
 ---

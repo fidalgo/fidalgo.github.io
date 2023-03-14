@@ -13,5 +13,5 @@ projects:
 
 - Led the development of an Auto-Configuration Server that allowed seamless sending of mobile application settings, in line with the latest RCSe/RCS5 specifications. This game-changing solution disrupted traditional telco solutions and provided users with a more streamlined and personalized experience.
 
-- As a technical leader, oversaw the maintenance and evolution of a SIP Application Server, as well as audio and video session transcoding in real-time. This involved utilizing the latest technologies and industry best practices to ensure optimal performance and seamless operation, driving innovation and excellence in the telecommunication industry.
+- As a technical leader oversaw the maintenance and evolution of a SIP Application Server, as well as audio and video session transcoding in real-time. This involved utilizing the latest technologies and industry best practices to ensure optimal performance and seamless operation, driving innovation and excellence in the telecommunication industry.
 ---
