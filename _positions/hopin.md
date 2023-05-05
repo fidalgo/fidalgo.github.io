@@ -8,7 +8,7 @@ page_break: true
 description: |
     Hopin is a rapidly expanding European company dedicated to developing an all-inclusive platform for virtual, hybrid, and onsite events. Their innovative products, such as StreamYard, Streamable, and Session, are designed to connect individuals and build communities.
 projects:
-- I'm proud to have contributed significantly to the company's growth as the 6th employee, driving various initiatives ranging from API development, billing, scaling, and stress testing. My experience and expertise in the field have enabled me to conduct numerous technical and non-technical interviews, resulting in hundreds of successful hires.
+- I'm proud to have contributed significantly to the company's growth as the 6th employee, driving various initiatives ranging from API development, billing, scaling, and stress testing. My experience and expertise in the field have enabled me to help define the recruiting, mentoring and onboarding processes as well as conduct numerous technical and non-technical interviews, resulting in hundreds of successful hires.
 
 - I had the opportunity to work on a crucial project that involved developing and optimizing the API that powered real-time online events. I had to work closely with the project team to understand the requirements and design an efficient and reliable API. The API needed to be scalable and handle numerous requests simultaneously, ensuring a seamless and uninterrupted user experience during events.
 
