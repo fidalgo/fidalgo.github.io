@@ -6,10 +6,9 @@ end_date: 2017-10-01
 technologies: Ruby, Redis, MongoDB, Zookeeper, RabbitMQ, Padrino, Roda
 
 description: |
-    As the lead engineer for Talkdesk's call-routing system, I assumed ownership of the core system and architected a new generation solution that elevated the platform's performance, scalability, and flexibility. The system was able to support major call features, including routing calls to the right destination, managing call recordings, waiting queues, and agent statuses, ensuring that Talkdesk remained at the forefront of the industry
+  As the lead engineer for Talkdesk's call-routing system, a leading provider of cloud-based contact center software, I assumed ownership of the core system and architected a new generation solution that elevated the platform's performance, scalability, and flexibility.
 projects:
-- |
-    Optimized Talkdesk's legacy call-routing system, enhancing its functionality and performance while maintaining code readability and adding new features that improved call routing capabilities. I've helped to establish integrations with leading providers like Twilio and Plivo, as well as enabling seamless integrations with SIP protocol boosting the platform flexibility.
-- |
-    Spearheaded the development of a new-generation solution that would seamlessly phase out the legacy system while providing customers with greater flexibility and customization. By leveraging microservices architecture, this system allowed customers to set custom workflows for each number while being horizontally scalable and flexible enough to integrate with third-party systems like Salesforce.
+  - Assumed ownership of the core system and architected a new generation solution that improved the platform's performance, scalability, and flexibility.
+  - Optimized Talkdesk's legacy call-routing system, enhancing its functionality and performance while maintaining code readability and adding new features.
+  - Developed a new-generation solution that phased out the legacy system while providing customers with greater flexibility and customization.
 ---
