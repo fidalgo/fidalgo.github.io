@@ -6,5 +6,8 @@ end_date: 2005-09-01
 technologies: J2SE, Linux, OpenLDAP, MySQL
 
 description: |
-    Developed a data synchronization project allowing seamless transfer of user information between an LDAP directory and a relational database (MySQL), enhancing the accuracy and efficiency of system synchronization. Used programming skills in Java and SQL to design and implement a periodic synchronization process, ensuring timely updates and accuracy of data transfer between the two heterogeneous systems.
+  At Saphety, a company known for its work in secure business processes, I developed a data synchronization project as part of a collaborative program between the university and private companies. This project allowed seamless transfer of user information between an LDAP directory and a relational database (MySQL).
+projects:
+  - Developed a data synchronization project allowing seamless transfer of user information between an LDAP directory and a relational database (MySQL).
+  - Designed and implemented a periodic synchronization process, ensuring timely updates and accuracy of data transfer between the two heterogeneous systems.
 ---
