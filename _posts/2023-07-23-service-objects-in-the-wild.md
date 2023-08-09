@@ -480,8 +480,9 @@ end
 ```
 
 Since Actor gem allows dependency injection this is perfectly possible, so we're swapping the real implementation with a dummy service, that answers
-to the same methods. Remember in Ruby "If it walks like a duck and it quacks like a duck, then it must be a duck".
-Check [Wikipedia page for Duck Typing](https://en.wikipedia.org/wiki/Duck_typing)
+to the same methods.
+In Ruby **_If it walks like a duck and it quacks like a duck, then it must be a duck._**
+is a mantra. For more information check [Wikipedia page for Duck Typing](https://en.wikipedia.org/wiki/Duck_typing)
 
 But this is not the only method to use Mocks, with minitest, as minitest has its own mocking facilities.
 Actually we can swap our test implementation with:
