@@ -13,5 +13,5 @@ projects:
   - Led and contributed to the development and design of an optimized API for real-time online events.
   - Spearheaded projects to secure user data with OAuth2 and OpenID Connect.
   - Played a pivotal role in data safety, compliance, and cost optimization, reducing cloud and provider expenses by 74%, from 4.6M to 1.2M.
-  - Won the best pitch at an internal AI Hackathon for a project around sentiment analysis and Natural Language Processing for events and communities.
+  - Won the best pitch award, at an internal AI Hackathon, for a project around sentiment analysis and Natural Language Processing for events and communities.
 ---
